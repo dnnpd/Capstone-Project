@@ -16,8 +16,6 @@ Send to the user the output accordingly.
   2. __Compound Interest__: calculates the compound interest given the principal, rate, intervals, and years.
   3. __View Rates__: view the conversion rate between one currency to another.
 - /help: view a list of commands and their descriptions.
-<<<<<<< HEAD
 - /allrates: view all rates available for a given currency
-=======
 - /allrates: view all rates available for a given currency
 - /quota: view the number of requests remaining for the month
