@@ -1,4 +1,5 @@
 const { Telegraf } = require('telegraf');
+//const { Composer } = require('micro-bot')
 const axios = require("axios").default;
 const { session } = require('telegraf');
 const { Scenes } = require('telegraf');
@@ -8,6 +9,7 @@ const Wizard = Scenes.WizardScene;
 BOT_TOKEN = '5598653399:AAEP9BRyCXsXRp1PSiyK70JqKJfyNsVGZr0'
 
 const bot = new Telegraf(BOT_TOKEN);
+//const bot = new Composer()
 
 //START BOT
 bot.start(ctx => {
@@ -254,3 +256,8 @@ bot.action('Calculate Compound Interest Rate', (ctx) => {
 
 //method to start get the script to pulling updates for telegram
 bot.launch();
+//module.exports = bot
+
+//guarded-anchorage-84106
+//https://guarded-anchorage-84106.herokuapp.com/
+//5598653399:AAEP9BRyCXsXRp1PSiyK70JqKJfyNsVGZr0
